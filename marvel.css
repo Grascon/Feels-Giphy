@@ -1,0 +1,57 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #bdc3c7;
+    font-family: 'Source Code Pro', monospace;
+}
+
+header {
+    background-color: white;
+}
+
+h1{
+    width: 100%;
+    margin: 0;
+    padding: 10px 20px;
+}
+
+img {
+    height: 200px;
+    width: 80%;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+img:hover{
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.container {
+    margin: 10px auto;
+    width: 70%;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.item {
+    float: left;
+}
+
+.btn {
+    margin: 5px 5px;
+}
+
+#gif-section{
+    display: none;
+}
